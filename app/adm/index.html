@@ -22,16 +22,16 @@
 
                 <li><a href="" class="active">  <img src="img/leon.png" alt="" class="img-fluid"></a></li>
                 <li><a href="" ><i class="bi bi-clipboard-data-fill"></i>Afiliados</a></li>
-                <li><a href="">Ingresos</a></li>
-                <li><a href="">Gastos</a></li>
-                <li><a href="" >Facturación</a></li>
+                <li><a href=""><i class="bi bi-clipboard-data-fill"></i>Ingresos</a></li>
+                <li><a href=""><i class="bi bi-clipboard-data-fill"></i>Gastos</a></li>
+                <li><a href="" data-bs-toggle="modal"
+                data-bs-target="#modalId" ><i class="bi bi-clipboard-data-fill"></i>Facturación</a></li>
             </ul>
 </div>
         </header>
         <main>
-            <section>
                 <div class="container-fluid">
-                <div class="p-3" style="margin-left: 10%;">
+                <div class="p-3" style="margin-left: 8%;">
                     hola
 
                 </div>
@@ -39,7 +39,67 @@
 
             </div>
 
-            </section>
+            <!-- ========== Start modal1 ========== -->
+            <!-- Modal trigger button -->
+            
+            <!-- Modal Body -->
+            <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+            <div
+                class="modal fade"
+                id="modalId"
+                tabindex="-1"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                
+                role="dialog"
+                aria-labelledby="modalTitleId"
+                aria-hidden="true"
+            >
+                <div
+                    class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl"
+                    role="document"
+                >
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalTitleId">
+                                <i class="bi bi-file-ruled fs-1"></i>Facturación
+                            </h5>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body">Body</div>
+                        <div class="modal-footer">
+                            <button
+                                type="button"
+                                class="btn btn-secondary"
+                                data-bs-dismiss="modal"
+                            >
+                                Close
+                            </button>
+                            <button type="button" class="btn btn-primary">Crear factura</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Optional: Place to the bottom of scripts -->
+            <script>
+                const myModal = new bootstrap.Modal(
+                    document.getElementById("modalId"),
+                    options,
+                );
+            </script>
+            
+
+
+
+
+            
+            <!-- ========== End modal1 ========== -->
             
 
 
