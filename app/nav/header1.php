@@ -14,7 +14,7 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="../adm/css/estilos.css">
-        <script src="js/funciones.js"></script>
+        <script src="../admin/js/funciones.js"></script>
     </head>
 
     <body>
@@ -32,30 +32,7 @@
 </div>
         </header>
         <main>
-                <div class="container-fluid">
-                <div class="p-3">
-                    
-
-                </div>
-
-
-            </div>
-
-            <!-- ========== Start modal1 ========== -->
-            <!-- Modal trigger button -->
-            
-            <!-- Modal Body -->
-            <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
-            
-            
-
-
-
-
-            
-            <!-- ========== End modal1 ========== -->
-            
-
+              
 
         </main>
         <footer>
