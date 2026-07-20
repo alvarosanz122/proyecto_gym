@@ -13,33 +13,47 @@
             integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="../adm/css/estilos.css">
+        <script src="js/funciones.js"></script>
     </head>
 
     <body>
         <header>
             <ul>
 
-                <li><a href="" class="active">  <img src="img/leon.png" alt="" class="img-fluid"></a></li>
-                <li><a href="" ><i class="bi bi-clipboard-data-fill"></i>Afiliados</a></li>
-                <li><a href="">Ingresos</a></li>
-                <li><a href="">Gastos</a></li>
-                <li><a href="" >Facturación</a></li>
+                <li><a href="" class="active text-center"> <img src="../adm/img/leon.png" alt="" class="img-fluid">Administracion</a></li>
+                <li><a href="" ><i class="bi bi-clipboard-data-fill"></i>inicio</a></li>
+                <li><a href="" ><i class="bi bi-clipboard-data-fill"></i>clientes</a></li>
+                <li><a href=""><i class="bi bi-clipboard-data-fill"></i>membresias</a></li>
+                <li><a href="http://localhost/proyectos/proyecto_gym/app/adm/facturacion.php"  ><i class="bi bi-clipboard-data-fill"></i>facturación</a></li>
+                <li><a href=""><i class="bi bi-clipboard-data-fill"></i>reportes</a></li>   
+                <li><a href=""><i class="bi bi-clipboard-data-fill"></i>mensajes</a></li>  
             </ul>
 </div>
         </header>
         <main>
-            <section>
                 <div class="container-fluid">
-                <div class="p-3" style="margin-left: 10%;">
-                    hola
+                <div class="p-3">
+                    
 
                 </div>
 
 
             </div>
 
-            </section>
+            <!-- ========== Start modal1 ========== -->
+            <!-- Modal trigger button -->
+            
+            <!-- Modal Body -->
+            <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+            
+            
+
+
+
+
+            
+            <!-- ========== End modal1 ========== -->
             
 
 

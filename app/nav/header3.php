@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS v5.3.8 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="../adm/css/estilos.css">
+    </head>
+
+    <body>
+        <header>
+            <ul>
+
+                <li><a href="" class="active">  <img src="../adm/img/leon.png" alt="" class="img-fluid"></a></li>
+                <li><a href="" ><i class="bi bi-clipboard-data-fill"></i>afiliados</a></li>
+                <li><a href=""><i class="bi bi-clipboard-data-fill"></i>ingresos</a></li>
+                <li><a href=""><i class="bi bi-clipboard-data-fill"></i>gastos</a></li>
+                <li><a href="" data-bs-toggle="modal"
+                data-bs-target="#modalId" ><i class="bi bi-clipboard-data-fill"></i>facturación</a></li>
+            </ul>
+</div>
+        </header>
+        <main>
+                <div class="container-fluid">
+                <div class="p-3" style="margin-left: 8%;">
+                    hola
+
+                </div>
+
+
+            </div>
+
+            <!-- ========== Start modal1 ========== -->
+            <!-- Modal trigger button -->
+            
+            <!-- Modal Body -->
+            <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+            <div
+                class="modal fade"
+                id="modalId"
+                tabindex="-1"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                
+                role="dialog"
+                aria-labelledby="modalTitleId"
+                aria-hidden="true"
+            >
+                <div
+                    class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl"
+                    role="document"
+                >
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalTitleId">
+                                <i class="bi bi-file-ruled fs-1"></i>Facturación
+                            </h5>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body">Body</div>
+                        <div class="modal-footer">
+                            <button
+                                type="button"
+                                class="btn btn-secondary"
+                                data-bs-dismiss="modal"
+                            >
+                                Close
+                            </button>
+                            <button type="button" class="btn btn-primary">Crear factura</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Optional: Place to the bottom of scripts -->
+            <script>
+                const myModal = new bootstrap.Modal(
+                    document.getElementById("modalId"),
+                    options,
+                );
+            </script>
+            
+
+
+
+
+            
+            <!-- ========== End modal1 ========== -->
+            
+
+
+        </main>
+        <footer>
+            <!-- place footer here -->
+        </footer>
+        <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    </body>
+</html>

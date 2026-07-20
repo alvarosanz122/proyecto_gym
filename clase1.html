@@ -317,10 +317,12 @@
 
                 var password = document.login.password.value;
     
-                if(usuario == 'clientes' && password == 123){
-                    window.location.href = 'app/usuario/usuario1.html';
+                if(usuario == 'usuario1' && password == 123){
+                    window.location.href = 'app/clientes/usuario1.php';
                 }else if(usuario == 'admin' && password == 123){
-                    window.location.href = 'app/adm/index.html';
+                    window.location.href = 'app/adm/index.php';
+                }else if(usuario == 'recepcion' && password == 123){
+                   window.location.href = 'app/recepcion/index.php';
                 }else{
                     alert("Usuario no logeado. Verifique su clave o usuario");
                 }
